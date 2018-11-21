@@ -1,0 +1,29 @@
+{
+  "name": "backendscaffold",
+  "version": "1.0.0",
+  "description": "scaffold of backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@lihuichi:JinghangAI/backend_scaffold.git"
+  },
+  "author": "LHC",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^3.0.1",
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.16.0",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-preset-latest-node": "^2.0.2"
+  }
+}
